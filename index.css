@@ -2,23 +2,51 @@ h1{
     font-family:"Raleway", sans-serif;
     font-size: 40px;
     text-align: center;
-    border: 3px solid black;
-    padding: 3px;
-    margin: 30px 300px 0 300px;
+    margin: 0px 300px 0 300px;
+    color:white;
+}
+.underline{
+    color="white";
+    margin: 0px 0px 20px 0px
 }
 p{
     font-family: "Raleway", sans-serif;
     font-size: 24px;
     text-align: center;
-    color:dimgrey;
+    color:white;
     font-weight: 300;
     margin: 0 0 20px 0;
+}
+.boxes{
+    border: 3px solid white;
+    padding: 0px 0 0px 0;
+    margin: 20px 300px 20px 300px
 }
 .anchors{
     margin: 30px 0 0 0;
     text-decoration: underline;
+    border: 3px solid black;
+    padding: 0 200px;
+    margin: 40px 390px;
+    display: inline-block;
 }
 h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+td{
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color:dimgrey;
+    font-weight: 300;
+}
+thead{
     font-family: "Raleway", sans-serif;
     font-size: 24px;
     text-align: center;
@@ -26,4 +54,23 @@ h3{
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: underline;
+}
+.title{
+     font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color:black;
+    font-weight: 300;
+    text-decoration: underline;
+}
+table{
+    margin: 0 340px 0 340px;
+}
+.wallpaper{
+    background-image: url(wallpaper.jpg);
+}
+.wallpaper2{
+    background-image: url(wallpaper3.jpg);
+    position: relative;
+    z-index: 3;
 }
