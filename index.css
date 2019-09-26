@@ -64,13 +64,66 @@ thead{
     text-decoration: underline;
 }
 table{
-    margin: 0 340px 0 340px;
+    margin: 10px 340px 0 340px;
+    border-color: white;
 }
 .wallpaper{
     background-image: url(wallpaper.jpg);
+}
+main{
+    background-image: url(wood.jpg);
+    height: 900px;
+    position: absolute;
+}
+main h2{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 10px 0;
+    text-decoration: underline;
 }
 .wallpaper2{
     background-image: url(wallpaper3.jpg);
     position: relative;
     z-index: 3;
+}
+main table tr th{
+    color:white;
+    font-size: 50px;
+    border-color: white;
+}
+main table tr td{
+    color: floralwhite;
+    font-size: 28px;
+}
+nav ul{
+    list-style: none;
+    background-color: black;
+    position: relative;
+}
+#tekst{
+    font-family: "Raleway", sans-serif;
+    font-size: 28px;
+    display: block;
+}
+main h1{
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Raleway";
+    font-size: 24px;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
 }
