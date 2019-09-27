@@ -15,7 +15,7 @@ p{
     text-align: center;
     color:white;
     font-weight: 300;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
 }
 .boxes{
     border: 3px solid white;
@@ -55,6 +55,19 @@ thead{
     text-transform: uppercase;
     text-decoration: underline;
 }
+.contact{
+    background-image: url(forest2.jpg);
+    height: 800px;
+}
+.contactmiddelen{
+    display: inline;
+}
+.contactmiddelen p{
+    font-size: 28px;
+}
+.contactmiddelen img{
+    margin: 40px 590px;
+}
 .title{
      font-family: "Raleway", sans-serif;
     font-size: 24px;
@@ -69,11 +82,11 @@ table{
 }
 .wallpaper{
     background-image: url(wallpaper.jpg);
+    height: 720px;
 }
 main{
-    background-image: url(wood.jpg);
-    height: 900px;
-    position: absolute;
+    background-image: url(forestgood.jpg);
+    height: 720px;
 }
 main h2{
     color: white;
@@ -102,6 +115,8 @@ nav ul{
     list-style: none;
     background-color: black;
     position: relative;
+    padding: 0;
+    margin: 0;
 }
 #tekst{
     font-family: "Raleway", sans-serif;
